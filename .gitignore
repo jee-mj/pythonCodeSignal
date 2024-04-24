@@ -1,5 +1,8 @@
 lib/*
 bin/*
-pyenv.cfg
+pyvenv.cfg
 .env
 .env.*
+
+# Seems Windows or Python>=3.11 have started using ./Scripts/ instead of ./bin/
+Scripts/*
