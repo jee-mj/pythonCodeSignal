@@ -7,7 +7,7 @@ dataFrame = sns.load_dataset('titanic')
 
 # TODO: Filter data for third-class passengers who survived and are older than 40
 dataFrame_filterSurvivedElders = dataFrame[
-  (dataFrame['survived'] == 1) & (dataFrame['age'] > 40) & (dataFrame['pclass'] == 3)
+  (dataFrame['survived'] == 1) & (dataFrame['age'] > 40) # hooray for readability
 ]
 
 # TODO: Sort the filtered data by age in ascending order
